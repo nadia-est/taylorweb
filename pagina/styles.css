@@ -1,0 +1,191 @@
+#superior{
+  background-color: rgba(213, 177, 218, 0.507);
+  padding: 15px;
+
+}
+
+body{ 
+  display: grid;
+  grid-template-areas:
+  "imagenprincipal imagenprincipal imagenprincipal"
+  "navbar navbar navbar"
+  "biografia  biografia biografia"
+  "info  info info"
+  "premios carousel carousel"
+  "experiencia experiencia sobremi";
+background: linear-gradient(rgba(175, 128, 196, 0.212),rgba(218, 123, 123, 0.568));
+}
+.info{
+ grid-area:info;
+}
+ .imagenprincipal{
+  grid-area: imagenprincipal;
+
+}
+
+.navbar{grid-area: navbar ;
+
+}
+
+.biografia{
+  grid-area: biografia;
+
+
+}
+
+
+.premios{
+grid-area: premios;
+
+}
+
+#carousel{
+grid-area: carousel;
+
+}
+.experiencia{
+grid-area: experiencia;
+}
+
+.sobremi{
+grid:sobremi;
+background-color: #287fc55b;
+margin-left: 30px;
+margin-right: 90px;
+padding: 10px;
+border-radius: 10px;
+}
+
+#imagenuno{
+max-width: 100%; /* Para asegurar que la imagen no se extienda más allá de su contenedor */
+max-height: 550px; /* Establecer la altura máxima deseada */
+height: auto;
+
+}
+
+
+#debut{background: linear-gradient(#82dbeb, #d8e9df);
+
+}
+
+#fearless{background: linear-gradient(#f1ce59, #e9e9d8);
+
+}
+
+#speak{background: linear-gradient(#bc82eb, #e4d8e9);
+}
+
+#red{background: linear-gradient(#e93030, #e2bdbd);
+
+
+}
+
+#nueve{background: linear-gradient(#6ca2df, #ccdbf3);;
+
+}
+
+#rep{
+  background: linear-gradient(#1a1b1b, #b9bbbb);
+
+
+}
+
+#lover{background: linear-gradient(#eb9bdd, #f5dff0);
+
+}
+
+#fol{background: linear-gradient(#141414, #fbfcfb);
+
+}
+
+#evermore{ background: linear-gradient(#8a653b, #ddc5a6);
+
+
+}
+
+#medianoche{ background: linear-gradient(#301fcc, #c2b2e7);
+}
+
+
+.imagenprincipal{
+position: relative;
+
+}
+
+h1{ position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Caveat', cursive;
+font-size: 60px;
+color: #b680b875;
+
+}
+
+.frasetriste{ position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Caveat', cursive;
+font-size: 23px;
+color: #59155c5b;
+
+}
+
+.premios{ width: 800px;
+  height: auto;
+  background-color: #eb82bf57;
+  margin:auto;
+  padding:20px;
+}
+
+#carouselExampleIndicators{
+width: 800px;
+border:2px solid #c27dbea2;
+border-radius:10px  ;
+margin: auto;
+margin-right: 125px;
+padding:20px;
+
+}
+
+.info{
+background-color:  rgba(213, 177, 218, 0.507);
+margin: auto;
+padding: 30px;
+
+}
+
+.frasedos{
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Caveat', cursive;
+font-size: 30px;
+color: #59155c5b;
+
+}
+
+
+.bodydos{
+display: grid;
+grid-template-areas:
+  "imagenprincipal imagenprincipal "
+  "navbar navbar"
+  "albunes albunes"
+
+}
+
+
+.imagenprincipal{
+  grid-area: imagenprincipal;
+
+}
+
+.navbar{grid-area: navbar ;
+
+}
+.albunes{
+grid-area:albunes;
+}
