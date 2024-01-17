@@ -4,21 +4,97 @@
 
 }
 
-body{ 
-  display: grid;
-  grid-template-areas:
+#superiordos{
+padding: 20px;
+background-color: rgba(213, 177, 218, 0.507);
+
+}
+
+.bodyuno{ 
+display: grid;
+grid-template-areas:
   "imagenprincipal imagenprincipal imagenprincipal"
   "navbar navbar navbar"
   "biografia  biografia biografia"
   "info  info info"
   "premios carousel carousel"
-  "experiencia experiencia sobremi";
-background: linear-gradient(rgba(175, 128, 196, 0.212),rgba(218, 123, 123, 0.568));
+  "diccionario diccionario diccionario"
+  "linea linea linea"
+  "experiencia experiencia sobremi"
+  "derechos derechos derechos";
+  background: linear-gradient(rgba(175, 128, 196, 0.212),rgba(218, 123, 123, 0.568));
+}
+
+
+.diccionario{
+grid-area: diccionario;
+margin-left: 1300px;
+
+}
+
+
+.boton{
+border-radius: 10px;
+background:linear-gradient(rgba(167, 129, 172, 0.568), rgb(125, 125, 182)) ;
+padding: 20px;
+
+
+}
+.tay5{
+width: 900px !important;
+height: 400px;
+
+}
+
+.titulopremios{
+grid-area: titulopremios;
+background-color: #f6f1f779;
+margin: 5px;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+}
+.autor{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0%;
+  color: #000000a6;
+
+}
+.lineados{
+width: 800px;
+margin-left: 550px;
+font-weight: 1000;
+}
+.derechos{
+grid-area: derechos;
+background-color: #f1ba717c;
+padding: 20px;
+
+}
+.contacto{
+background-color: #feffff7c;
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+text-align: center;
+color: #ce7c95;
+
+}
+.linea{
+grid-area: linea;
+
+}
+
+.infodos{
+grid-area: infodos;
+
 }
 .info{
  grid-area:info;
 }
- .imagenprincipal{
+.imagenprincipal{
   grid-area: imagenprincipal;
 
 }
@@ -32,10 +108,15 @@ background: linear-gradient(rgba(175, 128, 196, 0.212),rgba(218, 123, 123, 0.568
 
 
 }
+.bio{
+width: 950px;
 
+
+}
 
 .premios{
 grid-area: premios;
+
 
 }
 
@@ -45,20 +126,24 @@ grid-area: carousel;
 }
 .experiencia{
 grid-area: experiencia;
+border: 2px solid black;
+border-radius: 50px;
+border: #141414;
 }
 
 .sobremi{
 grid:sobremi;
 background-color: #287fc55b;
-margin-left: 30px;
-margin-right: 90px;
+margin-left: 40px;
+margin-right: 60px;
 padding: 10px;
 border-radius: 10px;
+border:  3px solid rgba(116, 40, 204, 0.24);
 }
 
 #imagenuno{
-max-width: 100%; /* Para asegurar que la imagen no se extienda más allá de su contenedor */
-max-height: 550px; /* Establecer la altura máxima deseada */
+max-width: 100%; 
+max-height: 550px; 
 height: auto;
 
 }
@@ -144,7 +229,7 @@ width: 800px;
 border:2px solid #c27dbea2;
 border-radius:10px  ;
 margin: auto;
-margin-right: 125px;
+margin-right: 250px;
 padding:20px;
 
 }
@@ -167,16 +252,42 @@ color: #59155c5b;
 
 }
 
-
 .bodydos{
+background: linear-gradient(rgba(141, 128, 196, 0.212),rgba(218, 123, 123, 0.568));
 display: grid;
 grid-template-areas:
   "imagenprincipal imagenprincipal "
   "navbar navbar"
   "albunes albunes"
+  "prologos prologos"
+  "derechos derechos"
+  
+   
+}
+
+.cielolover{
+width: 2100px;
+height: auto;
 
 }
 
+.contratapa{
+background-color: #feffff7c;
+font-family: 'Playfair Display', serif;
+font-size: 25px;
+text-align: center;
+color: #ce7c95;
+border: solid 1px;
+
+}
+
+.prologos{
+grid-template-areas:prologos;
+width: 450px;
+height: auto;
+margin-left:765px;
+margin-right: auto;
+}
 
 .imagenprincipal{
   grid-area: imagenprincipal;
@@ -188,4 +299,71 @@ grid-template-areas:
 }
 .albunes{
 grid-area:albunes;
+}
+
+
+.reputaprologo{
+width: auto;
+height: 420px;
+
+}
+
+.loverprologo{
+width: auto;
+height: 420px;
+}
+
+.anecdota{
+background-color: #fdfbfd71;
+
+}
+
+.email{
+background-color: #fdfbfd71;
+
+}
+
+.tay6{width: auto;
+  height: 378px;
+
+
+}
+
+.tayvino{
+width: auto;
+height: 378px;
+}
+
+#bault{
+border: solid 1px;
+background: linear-gradient(#8275f35e, #260629da) !important;
+
+}
+
+#bodytres{
+background: linear-gradient(rgba(175, 128, 196, 0.212),rgba(218, 123, 123, 0.568));
+
+
+}
+
+.fearlestour{
+padding: 10px;
+margin-left: 400px;
+max-width: 900px;
+
+}
+
+.videografiauno{
+background: linear-gradient(rgba(128, 129, 196, 0.288),rgba(235, 203, 209, 0.568));
+border: solid 1px black
+}
+
+#bobeda{
+background: linear-gradient(#a3aad8, #eee099)
+
+}
+
+#pregunta{
+background: linear-gradient(#0d0d0eb9, #e980f375)
+
 }
